@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+li {
+    list-style: disc;
+    margin: 0.25rem 1rem;
+}
