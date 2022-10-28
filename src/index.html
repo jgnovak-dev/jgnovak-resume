@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -13,229 +12,233 @@
 </head>
 
 <body>
-    <div class="m-4">
-        <header>
-            <div class="flex justify-center items-center text-center">
-                <h1 class="text-4xl">Jeremy Novak</h1>
+<div class="m-4">
+    <header>
+        <div class="flex justify-center items-center text-center">
+            <h1 class="text-4xl">Jeremy Novak</h1>
+        </div>
+
+        <div class="flex justify-center items-center space-x-4">
+            <div>
+                Location: Weatherford, TX, USA
             </div>
-
-            <div class="flex justify-center items-center space-x-4">
-                <div>
-                    Weatherford, TX, USA
-                </div>
-                <div>
-                    <a href="mailto:jgnovak@gmail.com" target="_blank">jgnovak@gmail.com</a>
-                </div>
-                <div>
-                    <a href="https://linkedin.com/in/jgnovak" target="_blank">linkedin.com/in/jgnovak</a>
-                </div>
-                <div>
-                    <a href="https://jgnovak.dev" target="_blank">jgnovak.dev</a>
-                </div>
-                <div>
-                    <a href="https://github.com/olepunchy" target="_blank">github.com/olepunchy</a>
-                </div>
+            <div>
+                Email: <a href="mailto:jgnovak@gmail.com" target="_blank">jgnovak@gmail.com</a>
             </div>
-        </header>
+            <div>
+                Linkedin: <a href="https://linkedin.com/in/jgnovak" target="_blank">linkedin.com/in/jgnovak</a>
+            </div>
+            <div>
+                Portfolio: <a href="https://jgnovak.dev" target="_blank">jgnovak.dev</a>
+            </div>
+            <div>
+                GitHub: <a href="https://github.com/olepunchy" target="_blank">github.com/jgnovak-dev</a>
+            </div>
+        </div>
+    </header>
 
-        <section class="mt-4">
-            <h2 class="text-3xl">Professional Summary</h2>
-            <hr class="mt-2">
+    <section class="mt-4">
+        <h2 class="text-3xl">Professional Summary</h2>
+        <hr class="mt-2">
 
-            <p class="flex my-4">
-                Experienced engineer transitioning to a software engineering role. Jeremy brings nearly two decades in
-                Information Technology and technical problem solving experience, and a history of experience delivering
-                challenging projects.
-            </p>
+        <p class="flex my-4">
+            Experienced engineer transitioning to a software engineering role. Jeremy brings nearly two decades in
+            Information Technology and technical problem solving experience, and a history of experience delivering
+            challenging projects.
+        </p>
 
-        </section>
+    </section>
 
-        <section>
-            <h2 class="text-3xl">Experience</h2>
-            <hr class="mt-2">
+    <section>
+        <h2 class="text-3xl">Experience</h2>
+        <hr class="mt-2">
 
-            <!-- Microsoft -->
-            <div class="flex mt-6">
-                <div class="flex w-full">
-                    <div class="flex-col">
-                        <h3 class="font-semibold text-2xl"><a href="https://microsoft.com" target="_blank">Microsoft</a>
-                        </h3>
-                        <h4 class="font-medium text-lg">Support Engineer</h4>
-                    </div>
-                    <div class="ml-auto">
-                        <h5 class="font-medium text-md">2022 - Present</h5>
-                        <h6 class="font-medium text-md">Weatherford, TX</h6>
-                    </div>
+        <!-- Microsoft -->
+        <div class="flex mt-6">
+            <div class="flex w-full">
+                <div class="flex-col">
+                    <h3 class="font-semibold text-2xl"><a href="https://microsoft.com" target="_blank">Microsoft</a>
+                    </h3>
+                    <h4 class="font-medium text-lg">Support Engineer</h4>
                 </div>
-
-            </div>
-            <div class="flex mt-2">
-                <ul>
-                    <li>Resolved approximately one support case per day for <a
-                            href="https://azure.microsoft.com/en-us/services/app-service/" target="_blank">Microsoft
-                            Azure App Service</a> customers, or about 130 cases to date. </li>
-                    <li>Studied one new Azure service in depth per week to maintain high efficiency in supporting
-                        customers, or about 22 Azure components to date.</li>
-                    <li>Maintained Service Level Agreement on cases removing blockers and moving forward to resolution
-                        in a timely manner on an average of 8 cases at a time.</li>
-                </ul>
-            </div>
-
-            <!-- Worley -->
-            <div class="flex mt-6">
-                <div class="flex w-full">
-                    <div class="flex-col">
-                        <h3 class="font-semibold text-2xl"><a href="https://worley.com" target="_blank">Worley</a></h3>
-                        <h4 class="font-medium text-lg">System Administrator</h4>
-                    </div>
-                    <div class="ml-auto">
-                        <h5 class="font-medium text-md">2019 - 2022</h5>
-                        <h6 class="font-medium text-md">Weatherford, TX</h6>
-                    </div>
+                <div class="ml-auto">
+                    <h5 class="font-medium text-md">2022 - Present</h5>
+                    <h6 class="font-medium text-md">Weatherford, TX</h6>
                 </div>
             </div>
-            <div class="flex mt-2">
-                <ul>
-                    <li>Revolutionized how complex suites of software are installed on engineering workstations by
-                        developing a solution that allows subject-matter experts to generate installation recipes. IT
-                        Labor savings of approximately 16 hours per engineering workstation, or about 80,000 hours
-                        annually.</li>
-                    <li>Developed an automation process for generating location and organization-specific configuration
-                        files for over 250 company locations using Google Maps REST API to determine IANA Time Zone and
-                        similar settings saving approximately one hour of labor per device installation or between 5,000
-                        and 10,000 hours annually.</li>
-                    <li>Designed and implemented a user-friendly migration automation solution to move 25,000 computers
-                        from a legacy domain to a new corporate domain saving approximately 2 hours of IT labor per
-                        device or approximately 50,000 hours for the project.</li>
-                </ul>
-            </div>
 
-            <!-- Jacobs -->
-            <div class="flex mt-6">
-                <div class="flex w-full">
-                    <div class="flex-col">
-                        <h3 class="font-semibold text-2xl"><a href="https://jacobs.com" target="_blank">Jacobs
-                                Engineering Group</a></h3>
-                        <h4 class="font-medium text-lg">System Administrator</h4>
-                    </div>
-                    <div class="ml-auto">
-                        <h5 class="font-medium text-md">2007 - 2019</h5>
-                        <h6 class="font-medium text-md">Dallas, TX</h6>
-                    </div>
+        </div>
+        <div class="flex mt-2">
+            <ul>
+                <li>Resolved approximately one support case per day for <a
+                        href="https://azure.microsoft.com/en-us/services/app-service/" target="_blank">Microsoft
+                    Azure App Service</a> customers, or about 130 cases to date.
+                </li>
+                <li>Studied one new Azure service in depth per week to maintain high efficiency in supporting
+                    customers, or about 22 Azure components to date.
+                </li>
+                <li>Maintained Service Level Agreement on cases removing blockers and moving forward to resolution
+                    in a timely manner on an average of 8 cases at a time.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Worley -->
+        <div class="flex mt-6">
+            <div class="flex w-full">
+                <div class="flex-col">
+                    <h3 class="font-semibold text-2xl"><a href="https://worley.com" target="_blank">Worley</a></h3>
+                    <h4 class="font-medium text-lg">System Administrator</h4>
+                </div>
+                <div class="ml-auto">
+                    <h5 class="font-medium text-md">2019 - 2022</h5>
+                    <h6 class="font-medium text-md">Weatherford, TX</h6>
                 </div>
             </div>
-            <div class="flex mt-2">
-                <ul>
-                    <li>Extended and customized a web solution for documenting detailed IT infrastructure information
-                        about all 130 locations saving about 30 minutes of work per support ticket in un-staffed
-                        locations.</li>
-                    <li>Developed and maintained a server monitoring solution with coverage for all 130 locations
-                        reducing time to problem discovery by approximately 50%.</li>
-                    <li>Managed all aspects of IT Infrastructure at over 20 locations in the South Central United States
-                        region delivering 99.99% uptime and business group satisfaction.</li>
-                </ul>
-            </div>
+        </div>
+        <div class="flex mt-2">
+            <ul>
+                <li>Revolutionized how complex suites of software are installed on engineering workstations by
+                    developing a solution that allows subject-matter experts to generate installation recipes. IT
+                    Labor savings of approximately 16 hours per engineering workstation, or about 80,000 hours
+                    annually.
+                </li>
+                <li>Developed an automation process for generating location and organization-specific configuration
+                    files for over 250 company locations using Google Maps REST API to determine IANA Time Zone and
+                    similar settings saving approximately one hour of labor per device installation or between 5,000
+                    and 10,000 hours annually.
+                </li>
+                <li>Designed and implemented a user-friendly migration automation solution to move 25,000 computers
+                    from a legacy domain to a new corporate domain saving approximately 2 hours of IT labor per
+                    device or approximately 50,000 hours for the project.
+                </li>
+            </ul>
+        </div>
 
-            <!-- Micron -->
-            <div class="flex mt-6">
-                <div class="flex w-full">
-                    <div class="flex-col">
-                        <h3 class="font-semibold text-2xl"><a href="https://micron.com" target="_blank">Micron
-                                Technology</a></h3>
-                        <h4 class="font-medium text-lg">System Administrator</h4>
-                    </div>
-                    <div class="ml-auto">
-                        <h5 class="font-medium text-md">2001 - 2007</h5>
-                        <h6 class="font-medium text-md">Boise, ID</h6>
-                    </div>
+        <!-- Jacobs -->
+        <div class="flex mt-6">
+            <div class="flex w-full">
+                <div class="flex-col">
+                    <h3 class="font-semibold text-2xl"><a href="https://jacobs.com" target="_blank">Jacobs
+                        Engineering Group</a></h3>
+                    <h4 class="font-medium text-lg">System Administrator</h4>
+                </div>
+                <div class="ml-auto">
+                    <h5 class="font-medium text-md">2007 - 2019</h5>
+                    <h6 class="font-medium text-md">Dallas, TX</h6>
                 </div>
             </div>
-            <div class="flex mt-2">
-                <ul>
-                    <li>Wrote automation for repeatable System Administration and troubleshooting tasks for myself and
-                        team mates saving from 5 to 30 minutes per task.</li>
-                    <li>Developed Rational Rose ticket creation pages that simplify common requests to a web form with
-                        basic verification, saving customers about 15 minutes per ticket.</li>
-                    <li>Maintained high availability and security on dozens of Solaris and Linux servers for
-                        semiconductor manufacturing and operations achieving 99.99% uptime.</li>
-                </ul>
-            </div>
-        </section>
+        </div>
+        <div class="flex mt-2">
+            <ul>
+                <li>Extended and customized a web solution for documenting detailed IT infrastructure information
+                    about all 130 locations saving about 30 minutes of work per support ticket in un-staffed
+                    locations.
+                </li>
+                <li>Developed and maintained a server monitoring solution with coverage for all 130 locations
+                    reducing time to problem discovery by approximately 50%.
+                </li>
+                <li>Managed all aspects of IT Infrastructure at over 20 locations in the South Central United States
+                    region delivering 99.99% uptime and business group satisfaction.
+                </li>
+            </ul>
+        </div>
 
-        <section class="mt-2">
-            <h2 class="text-3xl">Projects</h2>
-            <hr class="mt">
+        <!-- Micron -->
+        <div class="flex mt-6">
+            <div class="flex w-full">
+                <div class="flex-col">
+                    <h3 class="font-semibold text-2xl"><a href="https://micron.com" target="_blank">Micron
+                        Technology</a></h3>
+                    <h4 class="font-medium text-lg">System Administrator</h4>
+                </div>
+                <div class="ml-auto">
+                    <h5 class="font-medium text-md">2001 - 2007</h5>
+                    <h6 class="font-medium text-md">Boise, ID</h6>
+                </div>
+            </div>
+        </div>
+        <div class="flex mt-2">
+            <ul>
+                <li>Wrote automation for repeatable System Administration and troubleshooting tasks for myself and
+                    team mates saving from 5 to 30 minutes per task.
+                </li>
+                <li>Developed Rational Rose ticket creation pages that simplify common requests to a web form with
+                    basic verification, saving customers about 15 minutes per ticket.
+                </li>
+                <li>Maintained high availability and security on dozens of Solaris and Linux servers for
+                    semiconductor manufacturing and operations achieving 99.99% uptime.
+                </li>
+            </ul>
+        </div>
+    </section>
 
-            <div class="mt-2">
-                <span class="font-semibold font-md">.Net Desktop Application</span>: C#/.NET Framework Desktop
-                Application created to provide a simple and easy to use interface for Civil Engineers to change their
-                project association in Active Directory.
-                Upon selecting a new project, the user account is moved to the appropriate Organizational Unit and the
-                virtual machine is restarted applying specific applications and configurations for the selected project.
-                Source code review available on request.
-            </div>
+    <section class="mt-2">
+        <h2 class="text-3xl">Projects</h2>
+        <hr class="mt">
 
-            <div class="mt-2">
-                <span class="font-semibold font-md">Go Command Line Tool</span>: Go command line application created to
-                sync Active Directory group members with appropriate role in Intel vPro EMA Console. Run as a scheduled
-                task from the EMA Console server, <b>emasync</b> ensures
-                that members of Active Directory IT Security Groups are added to the correct EMA Security Roles in EMA
-                Console by comparing Active Directory group membership with EMA Console Role membership via REST API.
-                Missing accounts from designated Active Directory IT Security Groups are added via REST API
-                to the corresponding EMA Security Role in EMA Console. Accounts that have been removed from an Active
-                Directory IT Security Group are removed from the corresponding EMA Security Role via REST API. Source
-                code review for this and other projects written in Go available on request.
-            </div>
+        <div class="mt-2">
+            <span class="font-semibold font-md">.Net Desktop Application</span>: C#/.NET Framework Desktop
+            Application created to provide a simple and easy to use interface for Civil Engineers to change their
+            project association in Active Directory.
+            Upon selecting a new project, the user account is moved to the appropriate Organizational Unit and the
+            virtual machine is restarted applying specific applications and configurations for the selected project.
+            Source code review available on request.
+        </div>
 
-            <div class="mt-2">
-                <span class="font-semibold font-md">Ruby on Rails Blog</span>: Ruby on Rails blog site with file uploads
-                to Amazon S3 Bucket, Email integration with SendGrid and markdown features for writing blog posts.
-                Available for viewing at <a href="https://jgnovak.dev" target="_blank">jgnovak.dev</a>, source code
-                available for viewing at <a href="https://github.com/olepunchy/jgnovak.dev"
-                    target="_blank">github.com/jgnovak.dev</a>
-            </div>
-        </section>
+        <div class="mt-2">
+            <span class="font-semibold font-md">Go Command Line Tool</span>: Go command line application created to
+            sync Active Directory group members with appropriate role in Intel vPro EMA Console. Run as a scheduled
+            task from the EMA Console server, <b>emasync</b> ensures
+            that members of Active Directory IT Security Groups are added to the correct EMA Security Roles in EMA
+            Console by comparing Active Directory group membership with EMA Console Role membership via REST API.
+            Missing accounts from designated Active Directory IT Security Groups are added via REST API
+            to the corresponding EMA Security Role in EMA Console. Accounts that have been removed from an Active
+            Directory IT Security Group are removed from the corresponding EMA Security Role via REST API. Source
+            code review for this and other projects written in Go available on request.
+        </div>
 
-        <section class="mt-2">
-            <h2 class="text-3xl">Skills</h2>
-            <hr class="mt">
+    </section>
 
-            <div class="mt-2">
-                <span class="font-semibold font-md">Languages: </span> <a href="https://python.org" target="_blank"
-                    title="Python">Python</a>, <a
-                    href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html" target="_blank"
-                    title="Java">Java</a>, <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"
-                    title="C#">C#</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
-                    title="JavaScript">JavaScript</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                    target="_blank" title="HTML">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                    target="_blank" title="CSS">CSS</a>
-            </div>
-            <div class="mt-2">
-                <span class="font-semibold font-md">Platforms: </span> <a href="https://azure.microsoft.com/en-us/"
-                    target="_blank" title="Azure">Azure</a>, <a href="https://aws.amazon.com" target="_blank"
-                    title="AWS">Amazon Web Services</a>
-            </div>
-            <div class="mt-2">
-                <span class="font-semibold font-md">Tools: </span> <a href="https://www.postman.com/" target="_blank"
-                    title="Postman">Postman</a>, <a href="https://www.telerik.com/fiddler" target="_blank"
-                    title="Fiddler">Fiddler</a>, <a href="https://curl.se/" target="_blank" title="curl">curl</a>, <a
-                    href="https://git-scm.com/" target="_blank" title="git">git</a>, <a href="https://github.com/"
-                    target="_blank" title="GitHub">GitHub</a>, <a href="https://docker.com" target="_blank"
-                    title="Docker">Docker</a>, <a href="https://www.gnu.org/software/bash/" target="_blank"
-                    title="Shell">Shell</a>, Cloud Shell, <a href="https://neovim.io/" target="_blank"
-                    title="vim">Vim</a>, <a href="https://www.jetbrains.com/" target="_blank"
-                    title="JetBrains">JetBrains Editors</a>, <a href="https://code.visualstudio.com/" target="_blank"
-                    title="Visual Studio Code">Visual Studio Code</a>, <a
-                    href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax"
-                    target="_blank" title="Markdown">Markdown</a>, Chrome Developer Tools
-            </div>
-            <div class="mt-2">
-                <span class="font-semibold font-md">General: </span> REST API, HTTP, Networking, Linux, macOS, Windows,
-                Solution Development, Project Management, Troubleshooting, Documentation, Team Work, Time Management
-            </div>
-        </section>
+    <section class="mt-2">
+        <h2 class="text-3xl">Skills</h2>
+        <hr class="mt">
 
-    </div>
+        <div class="mt-2">
+            <span class="font-bold font-md">Languages: </span>
+            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" title="C#">C#</a>,
+            <a href="https://python.org" target="_blank" title="Python">Python</a>,
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">JavaScript</a>,
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML">HTML</a>,
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS">CSS</a>
+        </div>
+        <div class="mt-2">
+            <span class="font-bold font-md">Cloud Platforms: </span>
+            <a href="https://azure.microsoft.com/en-us/" target="_blank" title="Azure">Azure</a>,
+        </div>
+        <div class="mt-2">
+            <span class="font-bold font-md">Tools: </span>
+            <a href="https://www.postman.com/" target="_blank" title="Postman">Postman</a>,
+            <a href="https://www.telerik.com/fiddler" target="_blank" title="Fiddler">Fiddler</a>,
+            <a href="https://curl.se/" target="_blank" title="curl">curl</a>,
+            <a href="https://git-scm.com/" target="_blank" title="git">git</a>,
+            <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>,
+            <a href="https://docker.com" target="_blank" title="Docker">Docker</a>,
+            <a href="https://www.gnu.org/software/bash/" target="_blank" title="Shell">Shell</a>,
+            <a href="https://neovim.io/" target="_blank" title="vim">Vim</a>,
+            <a href="https://www.jetbrains.com/" target="_blank" title="JetBrains">JetBrains Editors</a>,
+            <a href="https://visualstudio.microsoft.com/" target="_blank" title="Visual Studio">Visual Studio</a>,
+            <a href="https://code.visualstudio.com/" target="_blank" title="Visual Studio Code">Visual Studio Code</a>,
+            <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" title="Markdown">Markdown</a>,
+            Chrome Developer Tools
+        </div>
+        <div class="mt-2">
+            <span class="font-bold font-md">General: </span> REST API, HTTP, Networking, Linux, macOS, Windows,
+            Solution Development, Project Management, Troubleshooting, Documentation, Team Work, Time Management
+        </div>
+    </section>
+
+</div>
 </body>
 
 </html>
